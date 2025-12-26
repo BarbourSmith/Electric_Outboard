@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.27314814814814814,
-      "y": 0.807799442896936,
+      "x": 0.08531746031746032,
+      "y": 0.4735376044568245,
       "uniqueID": "id-43660",
       "name": "Motor",
       "topLevel": false,
@@ -819,8 +819,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.23148148148148145,
-      "y": 0.41782729805013924,
+      "x": 0.11507936507936507,
+      "y": 0.25069637883008355,
       "uniqueID": "id-43689",
       "name": "Shaft",
       "topLevel": false,
@@ -874,8 +874,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.4417989417989418,
-      "y": 0.4651810584958217,
+      "x": 0.416005291005291,
+      "y": 0.34261838440111425,
       "uniqueID": "id-43693",
       "ioValues": [
         {
@@ -962,21 +962,51 @@
             "color": "#aad7f2",
             "dimension": "3D"
           }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "move-fuse-move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-150-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0--19.049999999999997-0-move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-150-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0-19.049999999999997-0-0-0-600",
+            "tags": [],
+            "bom": [
+              [],
+              []
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "dimension": "3D"
+          }
         }
       ],
       "unionType": "Fusion"
     },
     {
       "atomType": "Color",
-      "x": 0.591931216931217,
-      "y": 0.5376044568245125,
+      "x": 0.5747354497354497,
+      "y": 0.3983286908077995,
       "uniqueID": "id-43705",
       "selectedColor": "Black"
     },
     {
       "atomType": "Add-BOM-Tag",
-      "x": 0.7156084656084657,
-      "y": 0.4651810584958217,
+      "x": 0.7910052910052909,
+      "y": 0.4568245125348189,
       "uniqueID": "id-43708",
       "name": "Add BOM Tag",
       "ioValues": [
@@ -1007,8 +1037,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3511904761904762,
-      "y": 0.947075208913649,
+      "x": 0.10185185185185185,
+      "y": 0.7855153203342619,
       "uniqueID": "id-43808",
       "name": "Hangle",
       "topLevel": false,
@@ -1433,8 +1463,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.41468253968253965,
-      "y": 0.6880222841225626,
+      "x": 0.30952380952380953,
+      "y": 0.5988857938718662,
       "uniqueID": "id-43890",
       "ioValues": [
         {
@@ -1455,8 +1485,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6937830687830687,
-      "y": 0.7493036211699164,
+      "x": 0.26521164021164023,
+      "y": 0.9025069637883008,
       "uniqueID": "id-44004",
       "name": "Clamp",
       "topLevel": false,
@@ -1878,7 +1908,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-225-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0--19.049999999999997-0",
+                "geometry": "move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-150-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0--19.049999999999997-0",
                 "dimension": "3D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -1907,7 +1937,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-225-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0-19.049999999999997-0",
+                "geometry": "move-rotate-cut-extrude-shrinkWrap-fuse-cut-circle-150-fuse-move-rectangle-500-500-0-250-0-move-rectangle-500-500-250-0-0-move-circle-25-200--50-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-move-extrude-rectangle-50-200-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-50-100--150-0-90-0-0-0-19.049999999999997-0",
                 "dimension": "3D",
                 "tags": [],
                 "color": "#aad7f2",
@@ -2033,6 +2063,27 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.42063492063492064,
+      "y": 0.8105849582172702,
+      "uniqueID": "id-44101",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 600,
+          "currentEquation": "600"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2069,6 +2120,16 @@
     {
       "ap2Name": "Shape 3",
       "ap1ID": "id-43890",
+      "ap2ID": "id-43693"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-44004",
+      "ap2ID": "id-44101"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-44101",
       "ap2ID": "id-43693"
     }
   ],
