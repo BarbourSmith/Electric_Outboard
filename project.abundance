@@ -11,6 +11,113 @@
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-43658"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.24603174603174605,
+      "y": 0.6406685236768802,
+      "uniqueID": "id-43660",
+      "name": "Motor",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-43662"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.125,
+          "y": 0.520891364902507,
+          "uniqueID": "id-43664",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 93.98,
+              "currentEquation": "3.7*25.4"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2757936507936508,
+          "y": 0.4233983286908078,
+          "uniqueID": "id-43667",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 393.7,
+              "currentEquation": "15.5*25.4"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.42724867724867727,
+          "y": 0.5933147632311978,
+          "uniqueID": "id-43677",
+          "ioValues": [
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5272486772486773,
+          "y": 0.5933147632311978,
+          "uniqueID": "id-43683",
+          "ioValues": [
+            {
+              "name": "xDist",
+              "ioValue": -275,
+              "currentEquation": "-275"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-43664",
+          "ap2ID": "id-43667"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-43667",
+          "ap2ID": "id-43677"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-43677",
+          "ap2ID": "id-43683"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-43683",
+          "ap2ID": "id-43662"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [],
