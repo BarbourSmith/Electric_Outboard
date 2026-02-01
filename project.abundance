@@ -287,18 +287,57 @@
               "currentEquation": "35*25.4"
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1458863443596268,
+          "y": 0.8245614035087718,
+          "uniqueID": "id-44667",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 18,
+              "currentEquation": "18"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.40966921119592875,
+          "y": 0.7660818713450293,
+          "uniqueID": "id-44677",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry",
+          "ap2Name": "geometry1",
           "ap1ID": "id-43697",
-          "ap2ID": "id-43700"
+          "ap2ID": "id-44677"
         },
         {
           "ap2Name": "number or geometry",
           "ap1ID": "id-43700",
           "ap2ID": "id-43691"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-44667",
+          "ap2ID": "id-44677"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-44677",
+          "ap2ID": "id-43700"
         }
       ],
       "fileTypeVersion": 1
@@ -609,10 +648,6 @@
                 {
                   "name": "radius",
                   "ioValue": 20
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -627,10 +662,6 @@
                 {
                   "name": "radius",
                   "ioValue": 2
-                },
-                {
-                  "name": "inputShape",
-                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
               "codeVersion": 1,
@@ -2376,10 +2407,6 @@
                     {
                       "name": "Angle",
                       "ioValue": 120
-                    },
-                    {
-                      "name": "Shape",
-                      "ioValue": "__GEOMETRY_INPUT__"
                     }
                   ],
                   "codeVersion": 1,
