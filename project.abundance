@@ -1767,6 +1767,87 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Label",
+      "x": 0.5476190476190477,
+      "y": 0.6991643454038997,
+      "uniqueID": "id-45643",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "This Far",
+          "currentEquation": "This Far"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            500,
+            500,
+            500
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#3F3CDD",
+          "currentEquation": "#3F3CDD"
+        },
+        {
+          "name": "fontSize",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.7817460317460317,
+      "y": 0.7883008356545962,
+      "uniqueID": "id-45657",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 5.4
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Readme",
+      "x": 0.8816137566137565,
+      "y": 0.766016713091922,
+      "uniqueID": "id-45663",
+      "name": "README",
+      "ioValues": [
+        {
+          "name": "value",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "readMeText": "This used to be 6mm",
+      "global": true
     }
   ],
   "allConnectors": [
@@ -1781,9 +1862,19 @@
       "ap2ID": "id-43708"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-43705",
+      "ap2ID": "id-45643"
+    },
+    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-43708",
       "ap2ID": "id-43658"
+    },
+    {
+      "ap2Name": "value",
+      "ap1ID": "id-43708",
+      "ap2ID": "id-45663"
     },
     {
       "ap2Name": "Shape 2",
